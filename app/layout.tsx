@@ -2,6 +2,11 @@
 import './globals.css';
 import type { ReactNode } from 'react';
 
+export const metadata = {
+  title: 'MindMuse',
+  description: 'Your smart space for thoughts and notes',
+};
+
 type RootLayoutProps = {
   children: ReactNode;
 };
